@@ -1,0 +1,78 @@
+/* Modal overlay for dark background */
+.residents-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal content with rounded corners and card-like styling */
+  .residents-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%; /* Adjust width */
+    max-width: 600px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow-y: auto; /* For longer content */
+  }
+  
+  /* Modal title */
+  .residents-modal-content h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #006400;
+    text-align: center;
+  }
+  
+  /* Close button */
+  .residents-close-button {
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+  }
+  
+  /* Announcements list styling */
+  .residents-modal-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual announcement item styling */
+  .residents-announcement-card {
+    background: linear-gradient(135deg, #00c9ff, #92fe9d); /* Card-like gradient */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Announcement text */
+  .residents-announcement-text {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+  }
+  
+  /* Icon for announcements */
+  .residents-announcement-icon {
+    font-size: 28px;
+    color: #fff;
+  }
+  

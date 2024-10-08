@@ -1,0 +1,67 @@
+/* Unique styles for ResidentHeader */
+.resident-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background for header */
+    padding: 10px 20px;
+    border-bottom: 2px solid #e0e0e0; /* Slightly darker border */
+}
+
+.resident-logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.resident-logo {
+    height: 40px; /* Set height for the logo */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.resident-logo-text h1 {
+    font-size: 22px; /* Increased size for emphasis */
+    margin: 0;
+    color: #005700; /* Darker green for contrast */
+}
+
+.resident-logo-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #888; /* Softer gray for subtitle */
+}
+
+.resident-user-section {
+    display: flex;
+    align-items: center;
+}
+
+.resident-user-name {
+    font-size: 16px; /* Increased size for better readability */
+    font-weight: bold;
+    color: #005700; /* Darker green for user name */
+}
+
+.resident-user-role {
+    font-size: 13px; /* Slightly larger for readability */
+    color: #777; /* Gray color for user role */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.resident-household-icon {
+    margin-left: 5px; /* Space between role and icon */
+}
+
+.resident-logout-icon {
+    font-size: 22px; /* Larger logout icon */
+    margin-left: 15px; /* Space from user role */
+    cursor: pointer; /* Change cursor on hover */
+    color: #005700; /* Darker green for logout icon */
+}
+
+.resident-logout-icon:hover {
+    color: #ff4c4c; /* Change to red on hover for logout */
+    transition: color 0.3s; /* Smooth transition for color change */
+}

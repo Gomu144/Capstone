@@ -1,0 +1,57 @@
+/* Unique modal overlay for dark background */
+.residents-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Unique modal content styling */
+  .residents-modal-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 500px; /* Adjust width as needed */
+    max-width: 90%; /* Make it responsive */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Modal header styles */
+  .residents-modal-content h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #006400; /* Dark green */
+  }
+  
+  /* Close button */
+  .residents-close-button {
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 10px;
+  }
+  
+  /* Announcements list */
+  .residents-modal-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Announcements list items */
+  .residents-modal-content li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
